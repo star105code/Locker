@@ -260,5 +260,5 @@ def main_entry():
     except: pass
 
 # Цей блок спрацює, ТІЛЬКИ якщо ви запустите файл main.py напряму вручну
-if name == "main":
+if __name__ == "main":
     main_entry()
